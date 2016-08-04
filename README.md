@@ -9,3 +9,5 @@ Secondly, copy the functions from the functions gist and poaste this in your fun
 
 Save the file and then you will see a new metabox in your edit scren. Place the full URL of our image and it will be shown on
 on the Divi module index page.
+
+Get more details and <a href="https://ayanize.com/snippets/how-to-add-a-badge-or-similar-to-this-on-divi-blog-module/" target="_blank">code explanation in this blog post</a>.
