@@ -34,8 +34,10 @@ function save_badge_url()
     global $post;
     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)
         return;
-    $field = $_POST['badge_url_field'];
-    update_post_meta($post->ID, 'badge_url_field', $field);
+   
+	if ( isset($_POST['badge_url_field'])){
+    update_post_meta($post->ID, 'badge_url_field', $_POST['badge_url_field']);
+	}
 }
 function call_badge_blog_index()
 {
