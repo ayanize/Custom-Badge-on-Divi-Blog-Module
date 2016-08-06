@@ -43,7 +43,7 @@ function call_badge_blog_index()
 {
     global $post;
     $img  = get_post_meta($post->ID, 'badge_url_field', true);
-    $html = '<img style="max-width:20%; min-width: auto;position: absolute;bottom: 10px;right: 10px;" id="badge" src="' . esc_url($img) . '">';
+    $html = '<img style="max-width:20%; min-width: 0!important;position: absolute;bottom: 10px;right: 10px;" id="badge" src="' . esc_url($img) . '">';
     echo $html;
 }
 add_action('blog_badge_output', 'call_badge_blog_index');
